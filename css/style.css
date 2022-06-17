@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+
+
+}
+/*style of header and nav*/
+header{
+	background-color: #009999;
+	min-height:70px; 
+}
+nav{
+	margin-top: 15px;
+}
+.navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-nav>li>a:hover{
+	background-color:#cccc33; 
+}
+.navbar-toggle{
+	margin-top:12px;
+	//margin-left:8px; 
+	border: 1px solid #fff;
+}
+.navbar-toggle:hover, 
+.navbar-toggle:focus{
+	background-color: #009999;
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+/*style of second section */
+.wrapper{
+	  width: 100%;
+     height:500px;
+      background-image: url(../img/content.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+	  
+}
+.main{
+color: #fff;
+padding-top:80px; 
+}
+.main h2{
+	padding-top: 30px;
+	font-size: 50px;
+}
+.main p{
+	padding-top: 20px;
+}
+.btn{
+	padding: 8px 30px;
+	margin-top:20px;
+	border-radius: 0px; 
+}
+.btn-default{
+	background-color: #cccc33;
+	color: #000;
+}
+.btn-default:hover{
+	background-color: #cccc33;
+}
+/*style of thrid section*/
+.about{
+	margin-top:100px; 
+}
+.about h1{
+	color:#009999;
+	font-size: 70px;
+	font-family: calibri;
+}
+.about2 span{
+	color: #669999;
+    font-size: 30px;
+    font-family:calibri; 
+}
+.features{
+	margin-top:80px; 
+}
+.shape{
+	border-right:1px solid #ccc; 
+}
+.service{
+	  width: 100%;
+      min-height: 500px;
+      background-image: url(../img/ser.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin-top:100px; 
+}
+.service h1{
+	color:#009999;
+	margin-left:20px; 
+	font-size: 70px;
+	font-family: calibri;
+}
+.service .pser{
+	margin-left:35px; 
+}
+.serv{
+	margin-top:40px; 
+}
+.works{
+margin-top: 80px;
+}
+.works h1{
+	color:#009999;
+	font-size: 70px;
+	font-family: calibri;
+}
+.gnm{
+	padding: 0px;
+}
+.contacts{
+	background-image: url(../img/foot.png);
+	min-height:400px; 
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-top:40px; 
+}
+.form-control{
+	background-color:transparent;
+	border-style: none; 
+}
+form{
+	padding-top:20px; 
+}
+.btn-primary{
+	background-color: #cccc33;
+	border:none;
+}
+.btn-primary:hover{
+	background-color: #cccc33;
+}
+
+footer {
+	background-color: black;
+	padding:5px; 
+}
+footer h3{
+	color: white;
+	font-size: 10px; 
+
+}
+@media (max-width: 768px){
+	.wrapper{
+		height: 350px;
+	}
+	.main h2{
+		font-size: 18px;
+	}
+	.about h1{
+		font-size: 55px;
+	}
+	.about2 span{
+		font-size:20px; 
+	}
+	.shape{
+		border:none; 
+	}
+	.service h1{
+		font-size: 50px;
+	}
+	.works h1{
+		font-size: 55px;
+	}
+	.photo{
+		margin-left:0px; 
+	}
+
+}
